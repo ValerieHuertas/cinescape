@@ -59,14 +59,13 @@
 
 /* estilos de registros  */
 #cont-registro{
-    padding-top: 415px;
+    padding: 200px 0 10px 0;
     width: 100%;
     max-width: 430px;
     min-height: 100vh;
     margin: 0 auto;
     background: url("../img/register-img.png") var(--color-fondoA);
     text-align: center;
-    padding-top: 200px;
 }
 
 #cont-registro p{
@@ -92,7 +91,17 @@
     margin: 10px 0;
     border-radius: 8px;
 }
-
+.btn{
+    padding: 14px 40px;
+    background: var(--color-primario);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;
+    max-width: 90%;
+    margin: 10px auto 10px;
+    text-decoration: none;
+}
 /* estilos home */
 
 #cont-home{
